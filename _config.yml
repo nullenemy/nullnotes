@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 务虚笔记
+title: Null Notes
 subtitle: 
 description:
 keywords:
-author: Nullenemy
-language: zh-CN
+author: He Ji
+language: en
 timezone:
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next-custom
+theme: polk
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
