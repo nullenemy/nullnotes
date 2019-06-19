@@ -31,6 +31,4 @@ tags:
 
 另外不得不提的是 [ 3Blue1Brown的youtube频道 ](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw), 作为学习的补充，视频制作精良，尤其推荐关于微积分和线性代数的 Essence 系列。他在哔哩哔哩上有官方频道。
 
-
-
-在这些基础的东西弄懂了之后，再回过头去接触具体的图形api，不管是OpenGL, Vulkan, 还是Direct3D, 都会让你在学习的过程中更加地事半功倍。推荐一个大神miloyip推荐图形学相关的书单:  [游戏程序员学习之路](https://github.com/miloyip/game-programmer)。只能说一句：任重道远。
+在这些基础的东西弄懂了之后，再回过头去接触具体的图形api，不管是OpenGL, Vulkan, 还是Direct3D, 都会让你在学习的过程中更加地事半功倍。推荐一个大神miloyip推荐图形学相关的书单:  [ 游戏程序员学习之路 ](https://github.com/miloyip/game-programmer)。只能说一句：任重道远。
