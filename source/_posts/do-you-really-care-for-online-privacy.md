@@ -1,5 +1,5 @@
 ---
-title: 你真的关心你的上网隐私么？
+title: 你真的关心上网隐私么？
 date: 2019-06-22 09:44:26
 tags: online privacy, chrome, firefox, hackernews
 ---
