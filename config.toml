@@ -1,0 +1,12 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "He Ji Note"
+theme = "flex"
+
+[params]
+    # mainSections = ["posts", "quotes"]
+    mainSections = ["posts"]
+
+[permalinks]
+    posts = "/:year/:month/:title/"
+    quotes = "/:year/:month/:title/"
