@@ -1,0 +1,31 @@
+<%- include('../_partials/header.ejs') %>
+<div class="container">
+<div>
+    <% quoteList.forEach(function(post) { %>
+        
+    <div>
+            <div class="post">
+                <div class="post-header">
+                    <div class="meta">
+                        <div class="date">
+                            <span class="day"><%= post.meta.date.day %></span>
+                            <span class="rest"><%= post.meta.date.month %> <%= post.meta.date.year %></span> 
+                        </div>
+                    </div>
+                    <div>
+                    <%- post.body %>
+                </div>
+                </div>
+            </div>
+    </div>
+          
+        
+        <hr/>
+    <% }); %>
+</div>
+</div>
+</main>
+</div>
+</body>
+</html>
+

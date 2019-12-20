@@ -6,7 +6,7 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>何几的博客</title>
+    <title><%= title %></title>
     <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="/css/all.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
@@ -14,9 +14,9 @@
 <body class="wrapper">
     <div class="container">
     <main>
-            
-                <h1>何几的博客</h1>
-            
+            <% if (title) { %>
+                <h1><%= title %></h1>
+            <% } %>
             <hr />
     <nav class="align-center">
         <ul class="flat">
@@ -35,32 +35,3 @@
         </ul>
     </nav>
     <hr />
-<div class="container">
-<div>
-
-    
-        <div>
-            <div class="post">
-                <div class="post-header">
-                    <div class="meta">
-                        <div class="date">
-                            <span class="day">27</span>
-                            <span class="rest">November 2019</span> 
-                        </div>
-                    </div>
-                    <div class="matter">
-                        <h3 class="title"><a href="/posts/hello-world.html">hello world</a></h3>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-        
-    
-</div>
-</div>
-</main>
-</div>
-</body>
-</html>
-

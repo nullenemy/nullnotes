@@ -1,0 +1,30 @@
+<%- include('_partials/header.ejs') %>
+<div class="container">
+<div>
+
+    <% postList.forEach(function(post) { %>
+        <div>
+            <div class="post">
+                <div class="post-header">
+                    <div class="meta">
+                        <div class="date">
+                            <span class="day"><%= post.meta.date.day %></span>
+                            <span class="rest"><%= post.meta.date.month %> <%= post.meta.date.year %></span> 
+                        </div>
+                    </div>
+                    <div class="matter">
+                        <h3 class="title"><a href="/<%= post.link %>"><%= post.meta.title %></a></h3>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    <% }); %>
+</div>
+</div>
+</main>
+</div>
+</body>
+</html>
+
